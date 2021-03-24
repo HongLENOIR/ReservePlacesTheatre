@@ -1,0 +1,33 @@
+form{
+    height:600px;
+    width: 500px;
+    background-color: black;
+    color: rgb(154, 191, 207);
+}
+input{
+    height: 20px;
+    background-color: black;
+    border: transparent;
+    color: rgb(154, 191, 207);
+}
+hr{
+    width: 300px;
+    border-width: 2px;
+    border: 1px dashed rgb(154, 191, 207);
+}
+.form{
+    display: flex;
+    flex-flow: column;
+}
+button {
+    width: 50px;
+    background-color:black;
+    transition-duration: 0.4s;
+}
+button:hover{
+    display:block;
+    color: rgb(154, 191, 207);
+} 
+table{
+    color: rgb(154, 191, 207);
+}

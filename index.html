@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script type="text/javascript"> 
+     
+     // var arrayLignes = document.getElementById("tableau").rows; 
+      // var longueur = arrayLignes.length;
+      // var i=0; 
+
+      // while(i<longueur){
+      //   if(i == 0){
+      //     arrayLignes[i].value = "0 |";
+      //   }else{
+      //     arrayLignes[i].value = "[ _ ]";
+      //   }
+      //   i++;
+      //  }
+
+      function getValue(){
+        // Choisir l'élement d'input avec l'id et obtenir sa valeur 
+        var $n= document.getElementById("places").value;
+        alert("Vous voulez acheter:   " + $n + "    places");
+        var $r=document.getElementById("range").value;
+        alert(" Vous voulez réserver la range :  " +$r);
+      }
+            
+        function reserve_places($n, $r){
+          for($p=0;$p<=$n;$p++){
+           document.write($n.prototype.replace());
+          }
+        }
+      </script>
+    
+    <title>Réserver des places</title>
+  </head>
+
+  <body>
+    <form action="" method="POST" class="form">
+      <label for="places">Combien de places voulez vous acheter?</label><br>
+      <input type="text" id="places"><br>
+      <button type="button" onclick="getValue();">envoi</button>
+     
+      <label for="range">A quelle rangée voulez vous aller ?</label><br>
+      <input type="text" id="range"><br>
+      <button type="button" onclick="getValue();">envoi</button> <br>
+
+     <hr><br><br>
+     <script>
+    document.write('<table id="tableau>');
+      document.write('<tr>');
+       for($j=0; $j<=7; $j++){
+        document.write('<th>'+ $j + '| </th>');
+          for($i=0;$i<=8; $i++){
+           document.write('<td>[ _ ]</td>') ; 
+           }
+        }
+       for($tf=0; $tf<=8;$tf++){
+        document.write('<th></th>');
+        document.write('<td>' + $tf + '</td>');
+       }
+       document.write('</tr>');
+       document.write('</table>');
+         
+</script>
+
+     <!-- 
+      <table id="tableau">
+      <tr>
+        <td>0  |</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+      </tr>
+      <tr>
+       <td> 1 |</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+       </tr>
+       <tr>
+        <td> 2  |</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+         <td>[ _ ]</td>
+        </tr>
+        <tr>
+        <td> 3  |</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+        </tr>
+        <tr>
+        <td> 4  |</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+        </tr>
+        <tr>
+          <td> 5  |</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+            <td>[ _ ]</td>
+        </tr>
+        <tr>
+        <td> 6 |</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+          <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        </tr>
+        <tr>
+        <td> 7 | </td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        <td>[ _ ]</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td> 0 </td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        </tr>
+        </table>      -->
+    </form> 
+
+  </body>
+</html>
